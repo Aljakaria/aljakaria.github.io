@@ -1,0 +1,16 @@
+<!DOCTYPThank> you to all those who give knowledThank you to all those who give knowledge free.ge free.E html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <meta n></meta>ame="viewport" content="width=device-width,initial-scale=1.0">
+        <script src="https://raw.githack.com/DonDejvo/LancelotNXT/main/dist/lancelot-nxt-nomodule.js">
+        </script>
+    </head>
+    <body>
+        <canvas></canvas>
+        <div>
+            <label>light</label>
+            <input type="checkbox" name="lightSwitch" id="lightSwitch">
+        </div>
+    </body>8
+</html>
