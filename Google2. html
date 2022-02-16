@@ -1,0 +1,183 @@
+<!-- Created by Rishi -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <title>Google sign in page-clone</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style> 
+        /* Created by Rishi */
+
+body{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    border:none;
+}
+
+p{
+    margin:0px;
+    border:none;
+}
+
+#heading1{
+    text-align:center;
+    font-family:"Product sans","Harmonia Sans","Gilroy";
+    font-size:27px;
+    font-weight:475;
+    margin-top:15px;
+    user-select:none;
+}
+
+#g1{
+    color:#4885ed;
+}
+
+#o1{
+    color:#db3236;
+}
+
+#o2{
+    color:#f4c20d;
+}
+
+#g2{
+    color:#4885ed;
+}
+
+#l1{
+    color:#3cba54;
+}
+
+#e1{
+    color:#db3236;
+}
+
+#heading2{
+    text-align:center;
+    font-size:27px;
+    font-weight:400;
+    margin-top:20px;
+}
+
+#para1{
+    margin-top:15px;
+    margin-bottom:40px;
+    text-align:center;
+}
+
+input{
+    width:85%;
+    height:50px;
+    align:center;
+    margin-left:6.5%;
+    margin-bottom:10px;
+    padding-left:10px;
+    border:1px solid #cccccc;
+    border-radius:4px;
+    outline-style:none;
+    outline-color:#ffffff;
+    -moz-transition: outline-color .2s ease-out;
+    -ms-transition: outline-color .2s ease-out;
+    -o-transition: outline-color .2s ease-out;
+    transition: outline-color .2s ease-out;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 15px;
+    user-select:none;
+}
+
+input:focus{
+    outline-style:solid;
+    outline-color:#007bff;
+    outline-width:2px;
+    border-color:#ffffff;;
+}
+
+a{
+    text-decoration:none;
+    color:#0571ff;
+    font-size:15px;
+    font-weight:500;
+    padding:2px 3px;
+}
+
+a#forgotemail{
+    margin-left:6.5%;
+    padding:2px 3px;
+}
+
+a#createaccount{
+    margin-left:5%;
+    padding:10px 7px;
+}
+
+a:hover#forgotemail , a:hover#learnmore{
+    background-color:#d1e5ff;
+    border-radius:2px;
+}
+
+a:hover#createaccount{
+    color:#174fa4;
+    background-color:#e3effb;
+}
+
+#para2{
+    margin-left:6.6%;
+    font-size:14px;
+    color:#696969;
+}
+
+#bottom{
+    position:relative;
+}
+
+button#next{
+    position:absolute;
+    right:20px;
+    top:10px;
+    padding:9px 24px;
+    background-color:#0571ff;
+    color:#ffffff;
+    border:none;
+    border-radius:3px;
+    user-select:none;
+}
+
+button:active#next{
+    background-color:#0560ff;
+}        </style>
+    </head>
+    <body>
+        
+        <p id="heading1">
+            <span id="g1">G</span><span id="o1">o</span><span id="o2">o</span><span id="g2">g</span><span id="l1">l</span><span id="e1">e</span>
+        </p>
+        
+        <p id="heading2">Sign in</p>
+    </body>
+    
+        <p id="para1">Use your Google Account</p>
+        
+        <input type="email" placeholder="Email or phone" autocomplete="on" />
+        
+        <a href="#" id="forgotemail">Forgot email?</a>
+        
+        <br /><br /><br />
+        
+        <p id="para2">Not your computer? Use Guest mode to sign in privately. <a id="learnmore">Learn more</a></p>
+        
+        <br /><br />
+        
+        <div id="bottom">
+            <br />
+            <a href="#" id="createaccount">Create account</a>
+        
+            <button id="next">Next</button>
+        </div>
+        
+        <br />
+        
+</html>
