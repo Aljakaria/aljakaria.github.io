@@ -1,0 +1,18 @@
+<html>
+<head>
+       <litle> hello css and html </litle>
+       <style>
+  p{color:blue;font-size:24px;}
+h4{color:red;font-size:1em;}
+h3{color:blue;font-size:2em;} 
+</style>
+</head>
+<body>
+<h3>iam fast html</h3>
+<h4>I am heading</h4>
+<p>Iam fist pragraph</p>
+<p>Iam secoud pragraph</p>
+<p>Iam the three pragraph</p>
+</body>
+
+</html>
