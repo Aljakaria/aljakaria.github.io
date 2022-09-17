@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+     <link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+<script>
+$(document).ready(function(){
+ $('#icon').click(function(){
+   $('ul').toggleClass('show');
+});
+});
+</script>
+
+
+
+</head>
+
+<body>
+<nav>
+    
+<label id="icon">
+    <i class="fas fa-bars"></i>
+</label>
+
+<label class="logo">Js neox</label>
+ <ul>
+ <li><a class="active" href="a">Home</a></li>
+ <li><a href="*">about</a></li>
+ <li><a href="*">services</a></li>
+ <li><a href="*">contact me</a></li>
+ <li><a href="*">blog</a></li>
+ </ul>
+
+</nav>
+
+
+
+</body>
+</html>
